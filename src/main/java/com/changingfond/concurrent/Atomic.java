@@ -1,4 +1,4 @@
-package concurrent;
+package com.changingfond.concurrent;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
@@ -7,7 +7,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * @date: 2019/8/15 19:54
  * @description:
  */
-public class Lock {
+public class Atomic {
 
     static AtomicInteger i = new AtomicInteger(1);
 

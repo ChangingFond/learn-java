@@ -1,4 +1,4 @@
-package designpattern;
+package com.changingfond.designpattern;
 
 /**
  * @auther: fangchengjin_sx

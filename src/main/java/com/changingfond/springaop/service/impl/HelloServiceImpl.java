@@ -1,6 +1,6 @@
-package springaop.service.impl;
+package com.changingfond.springaop.service.impl;
 
-import springaop.service.HelloService;
+import com.changingfond.springaop.service.HelloService;
 
 public class HelloServiceImpl implements HelloService {
 

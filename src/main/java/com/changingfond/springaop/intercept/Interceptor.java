@@ -1,6 +1,6 @@
-package springaop.intercept;
+package com.changingfond.springaop.intercept;
 
-import springaop.invoke.Invocation;
+import com.changingfond.springaop.invoke.Invocation;
 import java.lang.reflect.InvocationTargetException;
 
 public interface Interceptor {

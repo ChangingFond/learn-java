@@ -1,4 +1,4 @@
-package concurrent;
+package com.changingfond.concurrent;
 
 import java.util.concurrent.*;
 
