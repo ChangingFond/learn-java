@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="140d939c-2d30-46d3-be88-a43a251f27db" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/changingfond/designpattern/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/changingfond/designpattern/Proxy.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/designpattern/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
+            <state relative-caret-position="524">
               <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
             </state>
           </provider>
@@ -51,24 +50,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/classloader/HelloClassLoader.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/classloader/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#238#239#0" expanded="true" />
-                <element signature="e#257#258#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="454">
+              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/classloader/Test.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/designpattern/Proxy.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="344">
-              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            <state relative-caret-position="-558">
+              <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#406#407#0" expanded="true" />
+                <element signature="e#456#457#0" expanded="true" />
+                <element signature="e#877#878#0" expanded="true" />
+                <element signature="e#927#928#0" expanded="true" />
+                <element signature="e#560#561#0" expanded="true" />
+                <element signature="e#596#597#0" expanded="true" />
+                <element signature="e#986#987#0" expanded="true" />
+                <element signature="e#1022#1023#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,6 +148,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/changingfond/classloader/Hello.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/changingfond/classloader/HelloClassLoader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/changingfond/classloader/Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/changingfond/designpattern/Proxy.java" />
       </list>
     </option>
   </component>
@@ -207,7 +213,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="changingfond" type="462c0819:PsiDirectoryNode" />
-              <item name="classloader" type="462c0819:PsiDirectoryNode" />
+              <item name="designpattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="learn-java" type="b2602c69:ProjectViewProjectNode" />
@@ -224,7 +230,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566480602789" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566481918470" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../LeetCode" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -243,7 +249,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Test">
+  <component name="RunManager" selected="Application.Proxy">
     <configuration name="BIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.changingfond.io.bio.BIOClient" />
       <module name="java" />
@@ -263,6 +269,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.changingfond.io.bio.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Proxy" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.changingfond.designpattern.Proxy" />
+      <module name="java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.changingfond.designpattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,33 +315,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TheadPool" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.changingfond.concurrent.TheadPool" />
-      <module name="java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.changingfond.concurrent.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.BIOClient" />
       <item itemvalue="Application.BIOServer" />
       <item itemvalue="Application.SerializeAndDeserializeTest" />
-      <item itemvalue="Application.TheadPool" />
       <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Proxy" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Proxy" />
         <item itemvalue="Application.Test" />
         <item itemvalue="Application.SerializeAndDeserializeTest" />
         <item itemvalue="Application.BIOClient" />
         <item itemvalue="Application.BIOServer" />
-        <item itemvalue="Application.TheadPool" />
       </list>
     </recent_temporary>
   </component>
@@ -353,12 +359,12 @@
       <workItem from="1566441582641" duration="802000" />
       <workItem from="1566459233566" duration="260000" />
       <workItem from="1566460168263" duration="6480000" />
-      <workItem from="1566475365837" duration="5155000" />
+      <workItem from="1566475365837" duration="6468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="36818000" />
+    <option name="totallyTimeSpent" value="38131000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -373,7 +379,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -633,13 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/designpattern/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/serializable/Person.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -702,13 +701,6 @@
             <element signature="e#166#167#0" expanded="true" />
             <element signature="e#210#211#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/reflection/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -971,6 +963,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/classloader/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/classloader/HelloClassLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="365">
@@ -983,10 +982,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/classloader/Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/reflection/Person.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="344">
-          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state relative-caret-position="198">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/designpattern/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="524">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/designpattern/Proxy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-558">
+          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#877#878#0" expanded="true" />
+            <element signature="e#927#928#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#986#987#0" expanded="true" />
+            <element signature="e#1022#1023#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
