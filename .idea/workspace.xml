@@ -2,27 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="140d939c-2d30-46d3-be88-a43a251f27db" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/changingfond/io/bio/BIOClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/changingfond/io/bio/BIOServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/changingfond/io/bio/BIOServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/changingfond/springaop/invoke/Invocation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/DaemonThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/changingfond/concurrent/DaemonThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/DeadLock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/changingfond/concurrent/DeadLock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/Lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/changingfond/concurrent/Atomic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/concurrent/TheadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/changingfond/concurrent/TheadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/designpattern/Singleton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/changingfond/designpattern/Singleton.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springaop/intercept/Interceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/changingfond/springaop/intercept/Interceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springaop/invoke/Invocation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springaop/service/HelloService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/changingfond/springaop/service/HelloService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/springaop/service/impl/HelloServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/changingfond/springaop/service/impl/HelloServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrent/DaemonThread$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/concurrent/DaemonThread.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springaop/intercept/Interceptor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springaop/invoke/Invocation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springaop/service/HelloService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/springaop/service/impl/HelloServiceImpl.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -40,10 +21,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/io/bio/BIOServer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/designpattern/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+            <state relative-caret-position="660">
+              <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/serializable/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,36 +42,60 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/io/bio/BIOClient.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/reflection/Person.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="520">
-              <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="198">
+              <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/io/bio/BIOServerHandler.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/classloader/HelloClassLoader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="598">
-              <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            <state relative-caret-position="365">
+              <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#363#364#0" expanded="true" />
-                <element signature="e#399#400#0" expanded="true" />
+                <element signature="e#238#239#0" expanded="true" />
+                <element signature="e#257#258#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/classloader/Test.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="344">
+              <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/springaop/invoke/Invocation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/springaop/service/impl/HelloServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="88">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/springaop/service/HelloService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="44">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -122,6 +136,13 @@
         <option value="$PROJECT_DIR$/src/main/java/com/changingfond/bio/BIOServerHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/changingfond/io/bio/BIOServer.java" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/changingfond/serializable/SerializeAndDeserializeTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/changingfond/serializable/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/changingfond/reflection/Person.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/changingfond/classloader/Hello.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/changingfond/classloader/HelloClassLoader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/changingfond/classloader/Test.java" />
       </list>
     </option>
   </component>
@@ -144,7 +165,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="CatdeaLogs" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -185,20 +207,24 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="changingfond" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="classloader" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learn-java" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learn-java" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="CatdeaLogs" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566392200690" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1566480602789" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../LeetCode" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -217,7 +243,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BIOClient">
+  <component name="RunManager" selected="Application.Test">
     <configuration name="BIOClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.changingfond.io.bio.BIOClient" />
       <module name="java" />
@@ -244,12 +270,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Singleton" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.changingfond.designpattern.Singleton" />
+    <configuration name="SerializeAndDeserializeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.changingfond.serializable.SerializeAndDeserializeTest" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.changingfond.designpattern.*" />
+          <option name="PATTERN" value="com.changingfond.serializable.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -258,11 +284,11 @@
       </method>
     </configuration>
     <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designpattern.Test" />
+      <option name="MAIN_CLASS_NAME" value="com.changingfond.classloader.Test" />
       <module name="java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.changingfond.designpattern.*" />
+          <option name="PATTERN" value="com.changingfond.classloader.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -283,13 +309,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.BIOClient" />
+      <item itemvalue="Application.BIOServer" />
+      <item itemvalue="Application.SerializeAndDeserializeTest" />
+      <item itemvalue="Application.TheadPool" />
+      <item itemvalue="Application.Test" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.SerializeAndDeserializeTest" />
         <item itemvalue="Application.BIOClient" />
         <item itemvalue="Application.BIOServer" />
         <item itemvalue="Application.TheadPool" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Singleton" />
       </list>
     </recent_temporary>
   </component>
@@ -317,17 +350,21 @@
       <workItem from="1566181956009" duration="10000" />
       <workItem from="1566361466306" duration="3141000" />
       <workItem from="1566388013930" duration="3420000" />
+      <workItem from="1566441582641" duration="802000" />
+      <workItem from="1566459233566" duration="260000" />
+      <workItem from="1566460168263" duration="6480000" />
+      <workItem from="1566475365837" duration="5155000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24121000" />
+    <option name="totallyTimeSpent" value="36818000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.28624734" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29904053" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -336,7 +373,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -363,16 +400,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="jar://D:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="63" column="13" lean-forward="true" selection-start-line="63" selection-start-column="13" selection-end-line="63" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Thread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1196">
@@ -382,37 +409,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Javawork.iml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/springaop/service/impl/HelloServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/springaop/service/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/springaop/invoke/Invocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/springaop/intercept/Interceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
     </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_211/jre/lib/rt.jar!/sun/misc/Unsafe.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -545,17 +541,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/designpattern/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="13" lean-forward="true" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="e#621#823#0" expanded="true" />
-            <element signature="e#822#823#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/Writer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -570,10 +555,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/io/bio/BIOClient.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="26" column="40" lean-forward="true" selection-start-line="26" selection-start-column="40" selection-end-line="26" selection-end-column="40" />
+        <state relative-caret-position="88">
+          <caret line="4" column="6" lean-forward="true" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/io/bio/BIOServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="902">
+          <caret line="46" column="26" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/person.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/ObjectInputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="420" column="24" selection-start-line="420" selection-start-column="24" selection-end-line="420" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/springaop/intercept/Interceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" column="20" lean-forward="true" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -582,30 +594,399 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/io/bio/BIOServerHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="598">
-          <caret line="31" column="26" lean-forward="true" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+        <state relative-caret-position="180">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/io/bio/BIOServer.java">
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="46" column="26" lean-forward="true" selection-start-line="46" selection-start-column="26" selection-end-line="46" selection-end-column="26" />
+        <state relative-caret-position="720">
+          <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/serializable/SerializeAndDeserializeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/io/bio/BIOClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/designpattern/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="30" column="51" selection-start-line="30" selection-start-column="51" selection-end-line="30" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/serializable/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/springaop/invoke/Invocation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/springaop/service/impl/HelloServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/springaop/service/HelloService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="44">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_211/src.zip!/java/io/ByteArrayOutputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="131" column="43" lean-forward="true" selection-start-line="131" selection-start-column="43" selection-end-line="131" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4621">
+          <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hello.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#269#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/classloader/Hello.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#166#167#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/reflection/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/classloader/Hello.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1251">
+          <caret line="638" column="50" lean-forward="true" selection-start-line="638" selection-start-column="50" selection-end-line="638" selection-end-column="50" />
+          <folding>
+            <element signature="docComment;class#ClassLoader#0" />
+            <element signature="initializer##0;class#ClassLoader#0" />
+            <element signature="e#7118#7191#0" />
+            <element signature="e#7118#8856#0" />
+            <element signature="e#7524#7621#0" />
+            <element signature="e#7631#7845#0" />
+            <element signature="e#7631#8533#0" />
+            <element signature="e#7951#8523#0" />
+            <element signature="e#8014#8450#1" />
+            <element signature="e#8036#8084#0" />
+            <element signature="e#8456#8509#1" />
+            <element signature="e#8543#8667#0" />
+            <element signature="e#8543#8850#0" />
+            <element signature="e#8777#8840#0" />
+            <element signature="e#10411#10637#0" />
+            <element signature="e#10552#10610#1" />
+            <element signature="e#10643#11302#0" />
+            <element signature="e#10787#11052#1" />
+            <element signature="e#11058#11296#1" />
+            <element signature="e#11308#11944#0" />
+            <element signature="e#12052#12691#0" />
+            <element signature="e#12817#13469#0" />
+            <element signature="e#13595#15205#0" />
+            <element signature="e#15571#15802#0" />
+            <element signature="e#15613#15695#1" />
+            <element signature="e#15701#15784#1" />
+            <element signature="e#15858#15909#0" />
+            <element signature="e#16043#16096#0" />
+            <element signature="e#16602#16650#1" />
+            <element signature="e#16694#17426#0" />
+            <element signature="e#16694#17780#0" />
+            <element signature="e#17553#17753#1" />
+            <element signature="e#17696#17743#1" />
+            <element signature="e#17786#18275#0" />
+            <element signature="e#17956#18017#0" />
+            <element signature="e#18116#18216#1" />
+            <element signature="e#18150#18206#0" />
+            <element signature="e#18222#18269#1" />
+            <element signature="e#18281#19224#0" />
+            <element signature="e#18501#19193#1" />
+            <element signature="e#18559#18725#1" />
+            <element signature="e#18618#18687#1" />
+            <element signature="e#18848#19183#1" />
+            <element signature="e#19230#19946#0" />
+            <element signature="e#19230#20078#0" />
+            <element signature="e#20084#21853#0" />
+            <element signature="e#20084#22035#0" />
+            <element signature="e#24800#25781#0" />
+            <element signature="e#25222#25295#0" />
+            <element signature="e#25464#25622#1" />
+            <element signature="e#25647#25690#1" />
+            <element signature="e#25787#26071#0" />
+            <element signature="e#25981#26042#1" />
+            <element signature="e#26077#26343#0" />
+            <element signature="e#26185#26337#1" />
+            <element signature="e#26349#29580#0" />
+            <element signature="e#30068#32808#0" />
+            <element signature="e#30068#33886#0" />
+            <element signature="e#33110#33590#1" />
+            <element signature="e#33142#33335#1" />
+            <element signature="e#33341#33580#1" />
+            <element signature="e#34414#34769#0" />
+            <element signature="e#34775#35781#0" />
+            <element signature="e#34991#35044#1" />
+            <element signature="e#35119#35363#1" />
+            <element signature="e#35153#35353#0" />
+            <element signature="e#35242#35339#1" />
+            <element signature="e#35369#35528#1" />
+            <element signature="e#35589#35775#1" />
+            <element signature="e#35787#35946#0" />
+            <element signature="e#35787#37178#0" />
+            <element signature="e#36165#36215#1" />
+            <element signature="e#36348#36402#0" />
+            <element signature="e#36517#36790#1" />
+            <element signature="e#36598#36742#1" />
+            <element signature="e#36648#36728#1" />
+            <element signature="e#36878#37150#1" />
+            <element signature="e#36958#37102#1" />
+            <element signature="e#37008#37088#1" />
+            <element signature="e#37184#37756#0" />
+            <element signature="e#37898#38761#0" />
+            <element signature="e#37898#39269#0" />
+            <element signature="e#38945#39224#1" />
+            <element signature="e#39119#39190#1" />
+            <element signature="e#39275#39383#0" />
+            <element signature="e#39275#39539#0" />
+            <element signature="e#39639#40153#0" />
+            <element signature="e#39639#40313#0" />
+            <element signature="e#40385#40649#0" />
+            <element signature="e#40784#41967#0" />
+            <element signature="e#40784#42274#0" />
+            <element signature="e#42055#42110#1" />
+            <element signature="e#42116#42173#1" />
+            <element signature="e#42199#42248#1" />
+            <element signature="e#42280#43655#0" />
+            <element signature="e#42280#44093#0" />
+            <element signature="e#43875#43934#1" />
+            <element signature="e#43940#44001#1" />
+            <element signature="e#44099#44482#0" />
+            <element signature="e#44561#45092#0" />
+            <element signature="e#44561#45234#0" />
+            <element signature="e#45240#45878#0" />
+            <element signature="e#45240#46140#0" />
+            <element signature="e#46146#46610#0" />
+            <element signature="e#46146#46852#0" />
+            <element signature="e#46747#46805#1" />
+            <element signature="e#46858#47505#0" />
+            <element signature="e#46858#47794#0" />
+            <element signature="e#47687#47746#1" />
+            <element signature="e#47800#47869#0" />
+            <element signature="e#47800#48082#0" />
+            <element signature="e#48088#48157#0" />
+            <element signature="e#48088#48622#0" />
+            <element signature="class#48377:48615" />
+            <element signature="e#48819#49232#0" />
+            <element signature="e#48819#49474#0" />
+            <element signature="e#49340#49409#0" />
+            <element signature="e#49432#49468#0" />
+            <element signature="e#49480#49930#0" />
+            <element signature="e#49480#50191#0" />
+            <element signature="e#50057#50126#0" />
+            <element signature="e#50149#50185#0" />
+            <element signature="e#50222#51404#0" />
+            <element signature="e#50222#51896#0" />
+            <element signature="e#51604#51867#1" />
+            <element signature="e#51618#51660#0" />
+            <element signature="e#51902#54769#0" />
+            <element signature="e#51902#55134#0" />
+            <element signature="e#54904#54940#1" />
+            <element signature="e#55023#55108#1" />
+            <element signature="e#55140#56244#0" />
+            <element signature="e#55220#56238#1" />
+            <element signature="e#55418#56201#1" />
+            <element signature="e#55521#55656#0" />
+            <element signature="e#55695#55896#0" />
+            <element signature="e#55807#55878#1" />
+            <element signature="e#55931#56187#1" />
+            <element signature="e#55980#56047#1" />
+            <element signature="e#56053#56169#1" />
+            <element signature="e#56250#56603#0" />
+            <element signature="e#56441#56554#1" />
+            <element signature="e#56500#56544#1" />
+            <element signature="e#56609#57211#0" />
+            <element signature="e#57217#57561#0" />
+            <element signature="e#57411#57447#1" />
+            <element signature="e#57567#58224#0" />
+            <element signature="e#57936#58218#1" />
+            <element signature="e#58111#58208#1" />
+            <element signature="e#58504#59849#0" />
+            <element signature="e#58504#60623#0" />
+            <element signature="e#60213#60617#0" />
+            <element signature="e#60288#60361#1" />
+            <element signature="e#60629#60957#0" />
+            <element signature="e#60629#61677#0" />
+            <element signature="e#61059#61108#0" />
+            <element signature="e#61134#61651#1" />
+            <element signature="e#61168#61230#1" />
+            <element signature="e#61236#61305#1" />
+            <element signature="e#61335#61641#1" />
+            <element signature="e#61377#61627#0" />
+            <element signature="e#61472#61544#1" />
+            <element signature="e#61550#61609#1" />
+            <element signature="e#61683#61933#0" />
+            <element signature="e#61683#62601#0" />
+            <element signature="e#62040#62094#0" />
+            <element signature="e#62147#62199#1" />
+            <element signature="e#62205#62264#1" />
+            <element signature="e#62291#62533#1" />
+            <element signature="e#62343#62523#1" />
+            <element signature="e#62443#62509#1" />
+            <element signature="e#62644#63233#0" />
+            <element signature="e#63317#64002#0" />
+            <element signature="e#63317#66144#0" />
+            <element signature="e#64836#65030#0" />
+            <element signature="e#65040#65923#0" />
+            <element signature="e#65114#65913#0" />
+            <element signature="e#65182#65899#1" />
+            <element signature="e#65350#65577#1" />
+            <element signature="e#65426#65555#1" />
+            <element signature="e#65713#65785#0" />
+            <element signature="e#65794#65881#0" />
+            <element signature="e#66783#67740#0" />
+            <element signature="e#67111#67182#1" />
+            <element signature="e#67425#67665#1" />
+            <element signature="e#67454#67522#1" />
+            <element signature="e#67544#67593#1" />
+            <element signature="e#67746#70049#0" />
+            <element signature="e#68063#68200#1" />
+            <element signature="e#68225#68408#1" />
+            <element signature="e#68284#68323#1" />
+            <element signature="e#68437#68990#1" />
+            <element signature="e#68535#68980#1" />
+            <element signature="e#68634#68787#1" />
+            <element signature="e#68842#68889#1" />
+            <element signature="e#69044#69403#1" />
+            <element signature="e#69176#69215#1" />
+            <element signature="e#69354#69393#1" />
+            <element signature="e#69432#69936#1" />
+            <element signature="e#69491#69926#1" />
+            <element signature="e#69671#69718#1" />
+            <element signature="e#69865#69912#1" />
+            <element signature="e#70118#73548#0" />
+            <element signature="e#70386#70884#1" />
+            <element signature="e#70681#70726#1" />
+            <element signature="e#70743#70806#0" />
+            <element signature="e#70829#70874#0" />
+            <element signature="e#71125#73542#0" />
+            <element signature="e#71206#71372#1" />
+            <element signature="e#71306#71358#1" />
+            <element signature="e#71420#73532#0" />
+            <element signature="e#71477#71692#1" />
+            <element signature="e#72444#73010#1" />
+            <element signature="e#72568#72992#1" />
+            <element signature="e#72640#72708#1" />
+            <element signature="e#72714#72970#1" />
+            <element signature="e#73162#73228#0" />
+            <element signature="e#73237#73304#0" />
+            <element signature="e#73337#73488#1" />
+            <element signature="e#73554#74095#0" />
+            <element signature="e#73799#74071#0" />
+            <element signature="e#73880#74061#1" />
+            <element signature="e#75097#75815#0" />
+            <element signature="e#75097#76071#0" />
+            <element signature="e#75914#76065#0" />
+            <element signature="e#76077#77956#0" />
+            <element signature="e#76077#78292#0" />
+            <element signature="e#78117#78286#0" />
+            <element signature="e#78298#79314#0" />
+            <element signature="e#78298#79598#0" />
+            <element signature="e#79429#79592#0" />
+            <element signature="e#79604#80011#0" />
+            <element signature="e#79604#80423#0" />
+            <element signature="e#80256#80417#0" />
+            <element signature="e#80429#81407#0" />
+            <element signature="e#80429#82545#0" />
+            <element signature="e#81500#82539#0" />
+            <element signature="e#81514#81555#0" />
+            <element signature="e#81933#82112#1" />
+            <element signature="e#82145#82439#1" />
+            <element signature="e#82551#83381#0" />
+            <element signature="class#SystemClassLoaderAction#0" />
+            <element signature="method#run#0;class#SystemClassLoaderAction#0" />
+            <element signature="e#83864#83902#1" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/classloader/HelloClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#257#258#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/changingfond/classloader/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="28" column="28" lean-forward="true" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
         </state>
       </provider>
     </entry>
