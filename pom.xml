@@ -12,6 +12,19 @@
     <modules>
         <module>java-basis</module>
         <module>java-jvm</module>
+        <module>java-mutithread</module>
+        <module>java-algorithm</module>
     </modules>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.4</version>
+            <scope>provided</scope>
+        </dependency>
+
+    </dependencies>
 
 </project>

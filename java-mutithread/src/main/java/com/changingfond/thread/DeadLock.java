@@ -1,4 +1,4 @@
-package com.changingfond.concurrent;
+package com.changingfond.thread;
 
 /**
  * @auther: fangchengjin_sx
