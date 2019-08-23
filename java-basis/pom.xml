@@ -4,14 +4,12 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.changingfond</groupId>
-    <artifactId>learn-java</artifactId>
-    <packaging>pom</packaging>
-    <version>1.0-SNAPSHOT</version>
+    <parent>
+        <groupId>com.changingfond</groupId>
+        <artifactId>learn-java</artifactId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
 
-    <modules>
-        <module>java-basis</module>
-        <module>java-jvm</module>
-    </modules>
+    <artifactId>java-basis</artifactId>
 
 </project>
