@@ -91,8 +91,7 @@ public class MockitoTest {
         System.out.println(fooMock.someMethod("foo"));
         System.out.println(fooMock.someMethod("foo"));
         System.out.println(fooMock.someMethod("foo"));
-
-        // stubing will override previous one
+    
         when(fooMock.someMethod("foo")).thenReturn("four");
         System.out.println(fooMock.someMethod("foo"));
 
