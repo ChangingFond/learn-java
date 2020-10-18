@@ -13,5 +13,9 @@ public class Atomic {
 
     public static void main(String[] args) {
         System.out.println(i.get());
+        // return previous value
+        System.out.println(i.getAndIncrement());
+        System.out.println(i.getAndDecrement());
+        System.out.println(i.getAndAdd(1));
     }
 }
