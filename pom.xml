@@ -17,6 +17,7 @@
         <module>java-ecology</module>
         <module>java-jetty</module>
         <module>java-thrift</module>
+        <module>java-netty</module>
     </modules>
 
     <dependencies>
